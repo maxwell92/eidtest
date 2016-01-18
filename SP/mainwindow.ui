@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>530</width>
+    <height>395</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SP</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPlainTextEdit" name="cipherText">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>10</y>
+      <width>261</width>
+      <height>377</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 14pt &quot;Abyssinica SIL&quot;;</string>
+    </property>
+    <property name="plainText">
+     <string>此处将显示系统运行各种消息</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="addressT">
+    <property name="geometry">
+     <rect>
+      <x>344</x>
+      <y>36</y>
+      <width>167</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>127.0.0.1</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="logFilepath">
+    <property name="geometry">
+     <rect>
+      <x>286</x>
+      <y>200</y>
+      <width>231</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Abyssinica SIL&quot;;</string>
+    </property>
+    <property name="plainText">
+     <string>/home/chen/maxwell/sp.log</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="dataFilepath">
+    <property name="geometry">
+     <rect>
+      <x>288</x>
+      <y>264</y>
+      <width>229</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Abyssinica SIL&quot;;</string>
+    </property>
+    <property name="plainText">
+     <string>/home/chen/maxwell/sp.data</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logFilepathL">
+    <property name="geometry">
+     <rect>
+      <x>306</x>
+      <y>176</y>
+      <width>125</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>日志保存地址</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="addressL">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>40</y>
+      <width>37</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>地址</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dataFilepathT">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>242</y>
+      <width>125</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>数据保存地址</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="listenBtn">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>340</y>
+      <width>92</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开启</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

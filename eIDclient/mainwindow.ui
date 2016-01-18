@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>461</width>
+    <height>379</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>eID客户端</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QCheckBox" name="nameChk">
+    <property name="geometry">
+     <rect>
+      <x>64</x>
+      <y>76</y>
+      <width>93</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Abyssinica SIL&quot;;</string>
+    </property>
+    <property name="text">
+     <string>真实姓名</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="idChk">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>124</y>
+      <width>93</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Abyssinica SIL&quot;;</string>
+    </property>
+    <property name="text">
+     <string>身份证号</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="teleChk">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>72</y>
+      <width>93</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Abyssinica SIL&quot;;</string>
+    </property>
+    <property name="text">
+     <string>联系电话</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="depChk">
+    <property name="geometry">
+     <rect>
+      <x>216</x>
+      <y>224</y>
+      <width>93</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Abyssinica SIL&quot;;</string>
+    </property>
+    <property name="text">
+     <string>工作单位</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="ageChk">
+    <property name="geometry">
+     <rect>
+      <x>62</x>
+      <y>226</y>
+      <width>93</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Abyssinica SIL&quot;;</string>
+    </property>
+    <property name="text">
+     <string>年龄</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="genChk">
+    <property name="geometry">
+     <rect>
+      <x>62</x>
+      <y>172</y>
+      <width>93</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Abyssinica SIL&quot;;</string>
+    </property>
+    <property name="text">
+     <string>性别</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="insChk">
+    <property name="geometry">
+     <rect>
+      <x>218</x>
+      <y>176</y>
+      <width>93</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Abyssinica SIL&quot;;</string>
+    </property>
+    <property name="text">
+     <string>社保号码</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="addrChk">
+    <property name="geometry">
+     <rect>
+      <x>64</x>
+      <y>124</y>
+      <width>93</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Abyssinica SIL&quot;;</string>
+    </property>
+    <property name="text">
+     <string>家庭地址</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="submitBtn">
+    <property name="geometry">
+     <rect>
+      <x>162</x>
+      <y>328</y>
+      <width>92</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提交</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

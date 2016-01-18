@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlgReg</class>
+ <widget class="QDialog" name="dlgReg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>244</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>注册</string>
+  </property>
+  <widget class="QLabel" name="regLabel">
+   <property name="geometry">
+    <rect>
+     <x>164</x>
+     <y>20</y>
+     <width>62</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注册</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameRLabel">
+   <property name="geometry">
+    <rect>
+     <x>46</x>
+     <y>58</y>
+     <width>62</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>用户名：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pRLabel">
+   <property name="geometry">
+    <rect>
+     <x>36</x>
+     <y>88</y>
+     <width>62</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>安全口令：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="eIDRLabel">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>120</y>
+     <width>62</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>eID卡号：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mRLabel">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>150</y>
+     <width>62</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>随机数M：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="submitBtn">
+   <property name="geometry">
+    <rect>
+     <x>68</x>
+     <y>190</y>
+     <width>92</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>提交</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnBtn">
+   <property name="geometry">
+    <rect>
+     <x>202</x>
+     <y>188</y>
+     <width>92</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nameRLEdit">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>50</y>
+     <width>177</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pRLEDit">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>82</y>
+     <width>177</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="eIDRLEdit">
+   <property name="geometry">
+    <rect>
+     <x>108</x>
+     <y>112</y>
+     <width>177</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mRLEdit">
+   <property name="geometry">
+    <rect>
+     <x>108</x>
+     <y>142</y>
+     <width>177</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
